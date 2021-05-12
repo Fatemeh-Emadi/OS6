@@ -12,7 +12,7 @@ ls -t:
 
 فایل ها و فولدر ها را بر اساس زمان اصلاح به طور نزولی مرتب می کند
 
-2)put password for a rar file
+2)put password on a rar file
 
 First-> sudo apt install rar   ( install rar )
 
@@ -30,5 +30,26 @@ rar a -p :
 
 قراردادن پسورد روی فایل فشرده 
 
-3)
+3)put password on a zip file
 
+First-> sudo apt install zip ( install zip)
+
+Second->mkdir testfile (create a file)
+
+Third-> zip -re testfile.zip testfile 
+
+ابتدا یک فایل ایجاد کردیم سپس از دستور زیر استفاده کردیم
+
+zip -re (filename.zip) 
+
+این دستور به ما این امکان را می دهد که بر روی فایل زیپ خود 
+                                  پسورد ایجاد کنیم  
+
+
+4) nano  arguments 
+
+nano -g:show cursor in file browser and help text
+
+nano -l:show line numbers in front of the text
+
+nano -V:print version information
